@@ -19,6 +19,7 @@ const someFunc = () => {
   //some logic
 }
 window.addEventListener('scroll', someFunc);
+return () => window.removeEventListener('scroll', someFunc);
   }, []);
   return <h1>hello there!</h1>
 };
