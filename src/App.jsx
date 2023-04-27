@@ -1,14 +1,14 @@
-// import Starter from './tutorial/01-useState/starter/02-useState-basics';
-import Starter from "./tutorial/02-useEffect/starter/05-cleanup-function"
-import { useState, useEffect } from "react";
-
+import Example from "./tutorial/04-project-structure/starter/Example";
 
 
 
 function App() {
   return (
     <div className='container'>
-     <Starter />
+   <Example />
+   <div>
+    <h3>hello world</h3>
+   </div>
   </div>
   );
 }
