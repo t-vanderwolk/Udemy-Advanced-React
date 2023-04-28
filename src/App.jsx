@@ -1,14 +1,11 @@
-import Example from "./tutorial/04-project-structure/starter/Example";
-
+import List from "./tutorial/05-leverage-javascript/starter/List";
 
 
 function App() {
   return (
     <div className='container'>
-   <Example />
-   <div>
-    <h3>hello world</h3>
-   </div>
+<h2>Leverage JavaScript</h2>
+<List />
   </div>
   );
 }
